@@ -1,5 +1,5 @@
 class Solution:
-    def divideString(self, s: str, k: int, fill: str) -> List[str]:
+    def divideString(self, s: str, k: int, fill: str) -> list[str]:
         res: list[str] = []
 
         start, stop = 0, k
